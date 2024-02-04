@@ -20,6 +20,9 @@ public class OfflinePatients  implements Patient{
         System.out.println(bedNumber);
     }
 
+    public String getPaid(){
+        return pId;
+    }
     public void assignMeDocotr(){
 
     }
