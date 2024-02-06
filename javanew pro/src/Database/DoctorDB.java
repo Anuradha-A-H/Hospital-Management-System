@@ -16,6 +16,9 @@ public class DoctorDB {
 
     }
 
+    public Doctor getDocById(String DocId){
+        return docDetails.get(DocId);
+    }
     public int getTotalDoc(){
         return docDetails.size();
     }

@@ -17,6 +17,13 @@ public class PatientDB {
 
     }
 
+
+
+    public int gettotalPatient(){
+        return patientDetails.size();
+    }
+
+
     public void addPatients(Patient p)
     {
         String pid = p.getPaid();
