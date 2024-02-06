@@ -23,6 +23,9 @@ public class OfflineDoctors implements Doctor {
     public void getMyPatients(){
 
     }
+    public String getDoctorName(){
+        return docName;
+    }
 
     public void getMyDetails(){
         System.out.println("Hey I am Doctor" + docName);
